@@ -1,1 +1,53 @@
-ط
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tariq Photography</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        body {
+            position: relative;
+        }
+
+        #t {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 95vmin;
+            overflow: hidden;
+            font-family: Tahoma, sans-serif;
+            transition-property: all;
+            transition-duration: 0.25s;
+        }
+
+        #t:active{
+            font-size: 85vmin; 
+        }
+
+        ::-moz-selection {
+            background: transparent;
+        }
+
+        ::selection {
+            background: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="t">
+        ط
+    </div>
+</body>
+
+</html>
